@@ -10,7 +10,7 @@ header {
     width: 100%;
     height: 69px;
     border-bottom: 2px solid #94BB1E;
-    margin-bottom: 12px;
+    margin-bottom: 40px;
     background: url('bg_top1.jpg') 0 0 repeat-x;
 
 }
@@ -21,9 +21,8 @@ img#logo {
 
 
 nav {
-    position: fixed;
-    top: 25px;
-    ;
+  position: absolute;
+    top: 25px;;
     left: 0;
     width: 100%;
     display: flex;
@@ -79,39 +78,61 @@ h1 {
     color: #666;
     text-align: center;
 
+
 }
+
 /* De øverste billeder */
-#top {
+
+/*
+#main {
     display: flex;
+    flex-wrap: wrap;
+}
+*/
+
+#top {
+      display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+
 }
 
-#case1 {
-position: relative;
+#top2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#top #case1 {
+     position: relative;
     text-align: center;
     color: white;
     border-right: 15px solid #fff;
+    width: 232px;
 
 
 }
 
 
-#case2 {
+#top #case2 {
     border-right: 15px solid #fff;
     width: 232px;
     position: relative;
     text-align: center;
     color: white;
+    flex-basis: 200px;
 
 }
 
-#case3 {
+#top #case3 {
     border-right: 15px solid #fff;
     width: 232px;
     position: relative;
     text-align: center;
     color: white;
+flex-basis: 200px;
+
 }
 
 #top h2 {
@@ -129,12 +150,12 @@ position: relative;
     text-decoration: none;
 }
 
-#case1 .image {
+#top #case1 .image {
     position: relative;
     width: 100%;
 }
 
-#case1 h2 {
+#top #case1 h2 {
     position: absolute;
     top: 143px;
     left: 0;
@@ -147,12 +168,12 @@ position: relative;
 
 }
 
-#case2 .image {
+#top #case2 .image {
     position: relative;
     width: 100%;
 }
 
-#case2 h2 {
+#top #case2 h2 {
     position: absolute;
     top: 143px;
     left: 0;
@@ -165,12 +186,12 @@ position: relative;
 
 }
 
-#case3 .image {
+#top #case3 .image {
     position: relative;
     width: 100%;
 }
 
-#case3 h2 {
+#top #case3 h2 {
     position: absolute;
     top: 143px;
     left: 0;
@@ -184,3 +205,126 @@ position: relative;
 }
 
 /* Øverste billeder slutter */
+
+/* Nedeste billeder starter */
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#bottom2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bottom #case1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-right: 15px solid #fff;
+
+
+}
+
+
+#bottom #case2 {
+    border-right: 15px solid #fff;
+    width: 232px;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+#bottom #case3 {
+    border-right: 15px solid #fff;
+    width: 232px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#bottom h2 {
+
+    padding: 0;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: black;
+
+
+}
+
+#bottom a {
+    text-decoration: none;
+}
+
+#bottom #case1 .image {
+    position: relative;
+    width: 100%;
+}
+
+#bottom #case1 h2 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(95, 102, 111);
+    background: rgba(95, 102, 111, 0.9);
+    padding-bottom: 28px;
+    padding-top: 10px;
+    color: #fff;
+
+}
+
+#bottom #case2 .image {
+    position: relative;
+    width: 100%;
+}
+
+#bottom #case2 h2 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(148, 187, 30);
+    background: rgba(148, 187, 30, 0.9);
+    padding-bottom: 28px;
+    padding-top: 29px;
+    color: #fff;
+
+}
+
+#bottom #case3 .image {
+    position: relative;
+    width: 100%;
+}
+
+#bottom #case3 h2 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(95, 102, 111);
+    background: rgba(95, 102, 111, 0.9);
+    padding-bottom: 19px;
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+/* Nederste billeder slutter */
+
+
+@media only screen and (max-width: 390px) {
+    img#logo {
+        display: none;
+    }
+    #searchbox {
+display: none;
+}
+}
