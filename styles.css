@@ -21,8 +21,8 @@ img#logo {
 
 
 nav {
-  position: absolute;
-    top: 25px;;
+    position: absolute;
+    top: 25px;
     left: 0;
     width: 100%;
     display: flex;
@@ -91,7 +91,7 @@ h1 {
 */
 
 #top {
-      display: flex;
+    display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-left: 60px;
@@ -105,7 +105,7 @@ h1 {
 }
 
 #top #case1 {
-     position: relative;
+    position: relative;
     text-align: center;
     color: white;
     border-right: 15px solid #fff;
@@ -131,7 +131,7 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
-flex-basis: 200px;
+    flex-basis: 200px;
 
 }
 
@@ -319,12 +319,18 @@ flex-basis: 200px;
 
 /* Nederste billeder slutter */
 
-
 @media only screen and (max-width: 390px) {
     img#logo {
         display: none;
     }
     #searchbox {
-display: none;
-}
+        display: none;
+    }
+
+    nav a {
+        font-size: 0.8em;
+    }
+    nav a:hover {
+        font-size: 100%;
+    }
 }
