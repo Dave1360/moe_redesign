@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
 }
 
 /* Start på navigation bar */
@@ -21,7 +22,8 @@ img#logo {
 
 nav {
     position: fixed;
-    top: 25px;;
+    top: 25px;
+    ;
     left: 0;
     width: 100%;
     display: flex;
@@ -47,6 +49,7 @@ nav a:hover {
 #searchbox {
     float: right;
     margin: 34.5px 50px 0 0;
+
 }
 
 
@@ -58,6 +61,7 @@ nav a:hover {
     letter-spacing: 0.05em;
     background: #F2F2F2;
     border: 1px solid #B1B1B1;
+
 }
 
 #searchsubmit {
@@ -69,3 +73,114 @@ nav a:hover {
 }
 
 /* Navigations bar slut */
+
+h1 {
+    font-size: 1.6em;
+    color: #666;
+    text-align: center;
+
+}
+/* De øverste billeder */
+#top {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#case1 {
+position: relative;
+    text-align: center;
+    color: white;
+    border-right: 15px solid #fff;
+
+
+}
+
+
+#case2 {
+    border-right: 15px solid #fff;
+    width: 232px;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+#case3 {
+    border-right: 15px solid #fff;
+    width: 232px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#top h2 {
+
+    padding: 0;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: black;
+
+
+}
+
+#top a {
+    text-decoration: none;
+}
+
+#case1 .image {
+    position: relative;
+    width: 100%;
+}
+
+#case1 h2 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(95, 102, 111);
+    background: rgba(95, 102, 111, 0.9);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #fff;
+
+}
+
+#case2 .image {
+    position: relative;
+    width: 100%;
+}
+
+#case2 h2 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(148, 187, 30);
+    background: rgba(148, 187, 30, 0.9);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+#case3 .image {
+    position: relative;
+    width: 100%;
+}
+
+#case3 h2 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(95, 102, 111);
+    background: rgba(95, 102, 111, 0.9);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+/* Øverste billeder slutter */
