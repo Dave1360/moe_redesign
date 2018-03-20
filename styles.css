@@ -1,0 +1,71 @@
+body {
+    margin: auto;
+}
+
+/* Start på navigation bar */
+
+header {
+    float: left;
+    width: 100%;
+    height: 69px;
+    border-bottom: 2px solid #94BB1E;
+    margin-bottom: 12px;
+    background: url('bg_top1.jpg') 0 0 repeat-x;
+
+}
+
+img#logo {
+    margin: 23px -150px 10px 50px;
+}
+
+
+nav {
+    position: fixed;
+    top: 25px;;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav a {
+
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 6px;
+    color: #666;
+    align-self: center;
+
+}
+
+nav a:hover {
+    font-size: 200%;
+}
+
+#searchbox {
+    float: right;
+    margin: 34.5px 50px 0 0;
+}
+
+
+#searchfield {
+    width: 150px;
+    margin-right: 6px;
+    padding: 1px 2px;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+    background: #F2F2F2;
+    border: 1px solid #B1B1B1;
+}
+
+#searchsubmit {
+    padding: 0 5px;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    width: auto;
+    overflow: visible;
+}
+
+/* Navigations bar slut */
