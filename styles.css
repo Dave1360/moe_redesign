@@ -309,7 +309,7 @@ h1 {
     top: 143px;
     left: 0;
     width: 232px;
-    background: rgb(95, 102, 111);
+    background: #5f666f;
     background: rgba(95, 102, 111, 0.9);
     padding-bottom: 19px;
     padding-top: 20px;
@@ -319,6 +319,23 @@ h1 {
 
 /* Nederste billeder slutter */
 
+/* footer starter */
+#footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid #94BB1E;
+    color: #999;
+
+
+}
+
+#footer p {
+    margin-left: 20px;
+}
+
+/* Footer slutter */
 @media only screen and (max-width: 390px) {
     img#logo {
         display: none;
@@ -332,5 +349,17 @@ h1 {
     }
     nav a:hover {
         font-size: 100%;
+    }
+
+    #footer {
+        position: relative;
+    }
+
+    #footer p {
+        font-size: 5px;
+    }
+
+    #byggeri {
+        display: none;
     }
 }
