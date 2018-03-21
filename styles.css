@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 <<<<<<< HEAD=======body {
     margin: auto;
     font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+=======
+/*<<<<<<< HEAD
+
+=======*/
+body {
+	margin: auto;
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+>>>>>>> origin/master
 }
 
 /* Start på navigation bar */
@@ -202,6 +211,7 @@ h1 {
 }
 
 #top #case1 h2 {
+<<<<<<< HEAD
     position: absolute;
     top: 143px;
     left: 0;
@@ -211,6 +221,17 @@ h1 {
     padding-bottom: 10px;
     padding-top: 10px;
     color: #fff;
+=======
+	position: absolute;
+	top: 143px;
+	left: 0;
+	width: 232px;
+	background: rgb(95, 102, 111);
+	background: rgba(95, 102, 111, 0.9);
+	padding-bottom: 10px;
+	padding-top: 13px;
+	color: #fff;
+>>>>>>> origin/master
 
 }
 
@@ -315,6 +336,7 @@ h1 {
 }
 
 #bottom #case1 h2 {
+<<<<<<< HEAD
     position: absolute;
     top: 143px;
     left: 0;
@@ -324,6 +346,17 @@ h1 {
     padding-bottom: 28px;
     padding-top: 10px;
     color: #fff;
+=======
+	position: absolute;
+	top: 143px;
+	left: 0;
+	width: 232px;
+	background: rgb(95, 102, 111);
+	background: rgba(95, 102, 111, 0.9);
+	padding-bottom: 28px;
+	padding-top: 12px;
+	color: #fff;
+>>>>>>> origin/master
 
 }
 
@@ -333,6 +366,7 @@ h1 {
 }
 
 #bottom #case2 h2 {
+<<<<<<< HEAD
     position: absolute;
     top: 143px;
     left: 0;
@@ -342,6 +376,17 @@ h1 {
     padding-bottom: 28px;
     padding-top: 29px;
     color: #fff;
+=======
+	position: absolute;
+	top: 143px;
+	left: 0;
+	width: 232px;
+	background: rgb(148, 187, 30);
+	background: rgba(148, 187, 30, 0.9);
+	padding-bottom: 28px;
+	padding-top: 30px;
+	color: #fff;
+>>>>>>> origin/master
 
 }
 
@@ -385,6 +430,7 @@ h1 {
 /* Footer slutter */
 
 @media only screen and (max-width: 390px) {
+<<<<<<< HEAD
     img#logo {
         display: none;
     }
@@ -413,3 +459,32 @@ h1 {
 }
 
 > > > > > > > origin/master
+=======
+	img#logo {
+		display: none;
+	}
+	#searchbox {
+		display: none;
+	}
+
+	nav a {
+		font-size: 0.8em;
+	}
+	nav a:hover {
+		font-size: 100%;
+	}
+
+	#footer {
+		position: relative;
+	}
+
+	#footer p {
+		font-size: 5px;
+	}
+
+	#byggeri {
+		display: none;
+	}
+}
+/*>>>>>>> origin/master*/
+>>>>>>> origin/master
