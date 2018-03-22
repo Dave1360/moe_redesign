@@ -139,4 +139,33 @@ img. {
     flex-basis: 200px;
 }
 
+.sectionwrapper_byggeri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sectionwrapper_tv_faglige {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sectionwrapper_energi_industri_komp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sectionwrapper_infrastruktur_komp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column_komp_undersite {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
 /*kompetencer slutter her*/
