@@ -9,15 +9,21 @@ body {
 
 header {
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> origin/master
     width: 100%;
     height: 69px;
     border-bottom: 2px solid #94BB1E;
     margin-bottom: 40px;
     background: url('bg_top1.jpg') 0 0 repeat-x;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 
 }
 
@@ -39,12 +45,18 @@ header {
     flex-basis: 200px;
 
 }
+<<<<<<< HEAD
 
 
 #byggeri_sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+=======
+>>>>>>> origin/master
 
+#byggeri_sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -71,6 +83,7 @@ header {
 
 .section a:hover {
     transform: scale(1.5);
+<<<<<<< HEAD
 }
 
 .section img {
@@ -79,6 +92,15 @@ header {
 }
 
 
+=======
+}
+
+.section img {
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+>>>>>>> origin/master
 nav {
     position: absolute;
     top: 35px;
@@ -451,6 +473,7 @@ nav a:hover {
 
 #footer p {
     font-size: 5px;
+<<<<<<< HEAD
 }
 
 
@@ -524,13 +547,25 @@ projekts_section {
 	font-size: 1.2em;
 }
 
+=======
+}
+
+>>>>>>> origin/master
 #byggeri {
     display: none;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+}
+
+/*>>>>>>> origin/master*/
+
+/*kompetencer*/
+>>>>>>> origin/master
 
 #kompetencer #sectionwrapper_komp {
     display: flex;
@@ -544,4 +579,8 @@ projekts_section {
     flex-basis: 300px;
 }
 
+<<<<<<< HEAD
 
+=======
+/*kompetencer slutter*/
+>>>>>>> origin/master
