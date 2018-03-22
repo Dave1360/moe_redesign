@@ -2,13 +2,12 @@
 body {
     margin: auto;
     font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
-
 }
 
 /* Start på navigation bar */
 
 header {
-
+    float: left;
     width: 100%;
     height: 69px;
     border-bottom: 2px solid #94BB1E;
@@ -17,73 +16,30 @@ header {
 
 }
 
-#logo {
-    margin-left: 50px;
-
+img#logo {
+    margin: 23px -150px 10px 50px;
 }
 
-#sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-
-.section {
-    flex-grow: 1;
-    flex-basis: 200px;
-
-}
-
-#byggeri_sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-
-.byggeri_section {
-    flex-grow: 1;
-    flex-basis: 200px;
-
-}
-
-#byggeri_section a:hover {
-    font-weight: bold;
-    color: rgb(148, 187, 30);
-    text-decoration: none;
-}
-
-#byggeri_section a {
-    text-decoration: none;
-    font-size: 1em;
-    padding: 6px;
-    color: #666;
-    align-self: center;
-}
-
-.section a:hover {
-    transform: scale(1.5);
-}
-
-.section img {
-    max-width: 100%;
-    transition: all 0.3s;
-}
 
 nav {
     position: absolute;
-    top: 35px;
+    top: 25px;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: center;
-    font-size: 1.6em;
+
+
 }
 
 nav a {
+
     text-decoration: none;
+    font-size: 1.4em;
     padding: 6px;
     color: #666;
+    align-self: center;
+
 }
 
 nav a:hover {
@@ -91,33 +47,30 @@ nav a:hover {
 }
 
 #searchbox {
-display: flex;
+    float: right;
     margin: 34.5px 50px 0 0;
- justify-content: space-between;
+
 }
 
 
-
-
 #searchfield {
-    color: black;
+    width: 150px;
+    margin-right: 6px;
     padding: 1px 2px;
     font-size: 0.9em;
     letter-spacing: 0.05em;
     background: #F2F2F2;
     border: 1px solid #B1B1B1;
-    align-self: flex-end;
-}
 
+}
 
 #searchsubmit {
     padding: 0 5px;
     font-size: 0.9em;
     letter-spacing: 0.1em;
-
+    width: auto;
+    overflow: visible;
 }
-
-
 
 /* Navigations bar slut */
 
@@ -204,7 +157,7 @@ h1 {
 }
 
 #top #case1 h2 {
-position: absolute;
+    position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
@@ -317,14 +270,14 @@ position: absolute;
 }
 
 #bottom #case1 h2 {
-position: absolute;
+    position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
     background: rgb(95, 102, 111);
     background: rgba(95, 102, 111, 0.9);
     padding-bottom: 28px;
-    padding-top: 12px;
+    padding-top: 10px;
     color: #fff;
 
 }
@@ -335,14 +288,14 @@ position: absolute;
 }
 
 #bottom #case2 h2 {
-position: absolute;
+    position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
     background: rgb(148, 187, 30);
     background: rgba(148, 187, 30, 0.9);
     padding-bottom: 28px;
-    padding-top: 30px;
+    padding-top: 29px;
     color: #fff;
 
 }
@@ -357,7 +310,7 @@ position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
-    background: #5f666f;
+    background: rgb(95, 102, 111);
     background: rgba(95, 102, 111, 0.9);
     padding-bottom: 19px;
     padding-top: 20px;
@@ -367,104 +320,18 @@ position: absolute;
 
 /* Nederste billeder slutter */
 
-/* footer starter */
-
-#footer {
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    border-top: 2px solid #94BB1E;
-    color: #999;
-
-
-}
-
-#footer p {
-    margin-left: 20px;
-}
-
-/* Footer slutter */
-
 @media only screen and (max-width: 390px) {
-   #logo {
+    img#logo {
         display: none;
     }
-
-    #searchfield {
-        display: none;
-    }
-
-    #searchsubmit {
+    #searchbox {
         display: none;
     }
 
     nav a {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     nav a:hover {
         font-size: 100%;
     }
-
-    #footer {
-        position: relative;
-    }
-
-    #footer p {
-        font-size: 5px;
-    }
-
-    #byggeri {
-        display: none;
-    }
 }
-
-/*img#logo {
-    display: none;
-}
-
-#searchbox {
-    display: none;
-}*/
-
-/*
-nav a {
-    font-size: 0.8em;
-}
-*/
-
-nav a:hover {
-    font-size: 100%;
-}
-
-#footer {
-    position: relative;
-}
-
-#footer p {
-    font-size: 5px;
-}
-
-#byggeri {
-    display: none;
-}
-
-}
-
-/*>>>>>>> origin/master*/
-
-/*kompetencer*/
-
-#kompetencer #sectionwrapper_komp {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-
-#column_komp #column_komp {
-    flex-grow: 1;
-    flex-basis: 300px;
-}
-
-/*kompetencer slutter*/
