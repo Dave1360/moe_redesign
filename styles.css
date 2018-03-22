@@ -18,6 +18,7 @@ header {
 
 #logo {
     margin-left: 50px;
+    margin-top: 10px;
 
 }
 
@@ -157,10 +158,15 @@ h1 {
     color: white;
     border-right: 15px solid #fff;
     width: 232px;
-
+    ;
+    transition: .5s ease;
+    background-color: #5f666f;
 
 }
 
+#top #case1:hover {
+    opacity: 0.5;
+}
 
 #top #case2 {
     border-right: 15px solid #fff;
@@ -168,8 +174,13 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
-    flex-basis: 200px;
+    transition: .5s ease;
+    background-color: #5f666f;
 
+}
+
+#top #case2:hover {
+    opacity: 0.5;
 }
 
 #top #case3 {
@@ -178,8 +189,12 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
-    flex-basis: 200px;
+    transition: .5s ease;
+    background-color: #5f666f;
+}
 
+#top #case3:hover {
+    opacity: 0.5;
 }
 
 #top h2 {
@@ -193,21 +208,13 @@ h1 {
 
 }
 
-#top a {
-    text-decoration: none;
-}
-
-#top #case1 .image {
-    position: relative;
-    width: 100%;
-}
 
 #top #case1 h2 {
     position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
-    background: rgb(95, 102, 111);
+    background: #5f666f;
     background: rgba(95, 102, 111, 0.9);
     padding-bottom: 10px;
     padding-top: 10px;
@@ -215,10 +222,7 @@ h1 {
 
 }
 
-#top #case2 .image {
-    position: relative;
-    width: 100%;
-}
+
 
 #top #case2 h2 {
     position: absolute;
@@ -233,10 +237,6 @@ h1 {
 
 }
 
-#top #case3 .image {
-    position: relative;
-    width: 100%;
-}
 
 #top #case3 h2 {
     position: absolute;
@@ -261,6 +261,7 @@ h1 {
     margin-top: 50px;
     margin-left: 60px;
     margin-right: 60px;
+    margin-bottom: 20px;
 }
 
 #bottom2 {
@@ -273,10 +274,14 @@ h1 {
     text-align: center;
     color: white;
     border-right: 15px solid #fff;
-
+    transition: .5s ease;
+    background-color: #5f666f;
 
 }
 
+#bottom #case1:hover {
+    opacity: 0.5;
+}
 
 #bottom #case2 {
     border-right: 15px solid #fff;
@@ -284,7 +289,12 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
+    transition: .5s ease;
+    background-color: #5f666f;
+}
 
+#bottom #case2:hover {
+    opacity: 0.5;
 }
 
 #bottom #case3 {
@@ -293,6 +303,12 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
+    transition: .5s ease;
+    background-color: #5f666f;
+}
+
+#bottom #case3:hover {
+    opacity: 0.5;
 }
 
 #bottom h2 {
@@ -415,6 +431,10 @@ h1 {
 
     #byggeri {
         display: none;
+    }
+
+    h1 {
+        font-size: 0.8em;
     }
 }
 
