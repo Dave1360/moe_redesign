@@ -7,18 +7,97 @@ body {
 /* Start på navigation bar */
 
 header {
+<<<<<<< HEAD
     float: left;
+=======
+
+
+
+
+
+
+>>>>>>> origin/master
     width: 100%;
     height: 69px;
     border-bottom: 2px solid #94BB1E;
     margin-bottom: 40px;
     background: url('bg_top1.jpg') 0 0 repeat-x;
 
+
 }
 
+<<<<<<< HEAD
 img#logo {
     margin: 23px -150px 10px 50px;
+=======
+#logo {
+    margin-left: 50px;
+
 }
+
+
+#sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.section {
+    flex-grow: 1;
+    flex-basis: 200px;
+
+}
+<<<<<<< HEAD
+
+
+#byggeri_sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#byggeri_sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.byggeri_section {
+    flex-grow: 1;
+    flex-basis: 200px;
+
+}
+
+#byggeri_section a:hover {
+    font-weight: bold;
+    color: rgb(148, 187, 30);
+    text-decoration: none;
+}
+
+#byggeri_section a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 6px;
+    color: #666;
+    align-self: center;
+}
+
+.section a:hover {
+    transform: scale(1.5);
+
+}
+
+.section img {
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+
+
+>>>>>>> origin/master
+}
+
 
 
 nav {
@@ -320,6 +399,29 @@ h1 {
 
 /* Nederste billeder slutter */
 
+<<<<<<< HEAD
+=======
+/* footer starter */
+
+.footermenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid #94BB1E;
+    color: #999;
+    margin-left: 20px;
+}
+
+
+/* Footer slutter */
+
+>>>>>>> origin/master
 @media only screen and (max-width: 390px) {
     img#logo {
         display: none;
@@ -334,4 +436,161 @@ h1 {
     nav a:hover {
         font-size: 100%;
     }
+<<<<<<< HEAD
 }
+=======
+
+    #footer {
+        position: relative;
+    }
+
+    #footer p {
+        font-size: 5px;
+    }
+
+    #byggeri {
+        display: none;
+    }
+}
+
+/*img#logo {
+    display: none;
+}
+
+#searchbox {
+    display: none;
+}*/
+
+/*
+nav a {
+    font-size: 0.8em;
+}
+*/
+
+nav a:hover {
+    font-size: 100%;
+}
+
+footer {
+    position: relative;
+}
+
+footer p {
+    font-size: 5px;
+
+}
+
+
+.projekts_sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+projekts_section {
+	flex-grow: 1;
+	flex-basis: 200px;
+
+}
+.byggeri_sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+
+.byggeri_section {
+	flex-grow: 1;
+	flex-basis: 200px;
+	padding: 35px;
+}
+
+.byggeri_section img{
+	width: 100%;
+}
+.byggeri_section a:hover{
+	  font-weight: bold;
+   color:rgb(148, 187, 30);
+    text-decoration: none;
+}
+.byggeri_section a{
+	   text-decoration: none;
+	font-size: 1.5em;
+	padding: 2px;
+	color: #666;
+	align-self: center;
+}
+
+
+.section a:hover{
+	 transform: scale(1.5);
+}
+.section img{
+	max-width: 100%;
+	transition: all 0.3s;
+}
+.link_kasse{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+.links{
+	flex-grow: 1;
+	flex-basis: 300px;
+	align-self: center;
+}
+
+}
+.byggeri_section img{
+	width: 100%;
+}
+.byggeri_section p{
+	font-size: 1.2em;
+}
+
+=======
+}
+
+>>>>>>> origin/master
+#byggeri {
+    display: none;
+}
+
+<<<<<<< HEAD
+
+
+
+=======
+}
+
+/*>>>>>>> origin/master*/
+
+/*kompetencer*/
+>>>>>>> origin/master
+
+#kompetencer #sectionwrapper_komp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#column_komp #column_komp {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+<<<<<<< HEAD
+
+=======
+/*kompetencer slutter*/
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master

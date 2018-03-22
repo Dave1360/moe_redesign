@@ -1,0 +1,20 @@
+#karriere .sectionwrapper_karri {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#karriere .content_karri {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+    border-right: 15px solid #fff;
+    width: 232px;
+    transition: .5s ease;
+    background-color: #5f666f;
+}
+
+
