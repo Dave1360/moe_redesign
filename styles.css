@@ -1,18 +1,29 @@
 body {
     margin: auto;
     font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
-
 }
 
 /* Start på navigation bar */
 
 header {
+<<<<<<< HEAD
+    float: left;
+=======
 
 
 
 
 
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+
+
+
+
+
+>>>>>>> origin/master
     width: 100%;
     height: 69px;
     border-bottom: 2px solid #94BB1E;
@@ -22,6 +33,10 @@ header {
 
 }
 
+<<<<<<< HEAD
+img#logo {
+    margin: 23px -150px 10px 50px;
+=======
 #logo {
     margin-left: 50px;
 
@@ -76,6 +91,8 @@ header {
 .section a:hover {
     transform: scale(1.5);
 
+<<<<<<< HEAD
+=======
 }
 
 .section img {
@@ -85,6 +102,7 @@ header {
 
 
 
+>>>>>>> origin/master
 }
 
 .section img {
@@ -93,19 +111,34 @@ header {
 }
 
 
+<<<<<<< HEAD
+
+>>>>>>> origin/master
+}
+
+
+
+=======
+>>>>>>> origin/master
 nav {
     position: absolute;
-    top: 35px;
+    top: 25px;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: center;
-    font-size: 1.6em;
+
+
 }
 
 nav a {
+
     text-decoration: none;
+    font-size: 1.4em;
     padding: 6px;
     color: #666;
+    align-self: center;
+
 }
 
 nav a:hover {
@@ -113,33 +146,38 @@ nav a:hover {
 }
 
 #searchbox {
+<<<<<<< HEAD
     display: flex;
     margin: 34.5px 50px 0 0;
     justify-content: space-between;
 }
 
+=======
+    float: right;
+    margin: 34.5px 50px 0 0;
+>>>>>>> origin/master
 
+}
 
 
 #searchfield {
-    color: black;
+    width: 150px;
+    margin-right: 6px;
     padding: 1px 2px;
     font-size: 0.9em;
     letter-spacing: 0.05em;
     background: #F2F2F2;
     border: 1px solid #B1B1B1;
-    align-self: flex-end;
-}
 
+}
 
 #searchsubmit {
     padding: 0 5px;
     font-size: 0.9em;
     letter-spacing: 0.1em;
-
+    width: auto;
+    overflow: visible;
 }
-
-
 
 /* Navigations bar slut */
 
@@ -346,7 +384,7 @@ h1 {
     background: rgb(95, 102, 111);
     background: rgba(95, 102, 111, 0.9);
     padding-bottom: 28px;
-    padding-top: 12px;
+    padding-top: 10px;
     color: #fff;
 
 }
@@ -364,7 +402,7 @@ h1 {
     background: rgb(148, 187, 30);
     background: rgba(148, 187, 30, 0.9);
     padding-bottom: 28px;
-    padding-top: 30px;
+    padding-top: 29px;
     color: #fff;
 
 }
@@ -379,7 +417,7 @@ h1 {
     top: 143px;
     left: 0;
     width: 232px;
-    background: #5f666f;
+    background: rgb(95, 102, 111);
     background: rgba(95, 102, 111, 0.9);
     padding-bottom: 19px;
     padding-top: 20px;
@@ -389,6 +427,8 @@ h1 {
 
 /* Nederste billeder slutter */
 
+<<<<<<< HEAD
+=======
 /* footer starter */
 
 .footermenu {
@@ -409,25 +449,32 @@ footer {
 
 /* Footer slutter */
 
+>>>>>>> origin/master
 @media only screen and (max-width: 390px) {
+<<<<<<< HEAD
     #logo {
         display: none;
     }
 
     #searchfield {
+=======
+    img#logo {
+>>>>>>> origin/master
         display: none;
     }
-
-    #searchsubmit {
+    #searchbox {
         display: none;
     }
 
     nav a {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     nav a:hover {
         font-size: 100%;
     }
+<<<<<<< HEAD
+}
+=======
 
     #footer {
         position: relative;
@@ -467,6 +514,37 @@ footer {
 footer p {
     font-size: 5px;
 
+<<<<<<< HEAD
+}
+
+
+.projekts_sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+projekts_section {
+	flex-grow: 1;
+	flex-basis: 200px;
+
+}
+.byggeri_sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+
+.byggeri_section {
+	flex-grow: 1;
+	flex-basis: 200px;
+	padding: 35px;
+}
+
+=======
 }
 
 
@@ -492,9 +570,32 @@ projekts_section {
 
 
 .byggeri_section {
+<<<<<<< HEAD
     flex-grow: 1;
     flex-basis: 200px;
     padding: 35px;
+=======
+	flex-grow: 1;
+	flex-basis: 200px;
+	padding: 35px;
+}
+
+>>>>>>> origin/master
+.byggeri_section img{
+	width: 100%;
+}
+.byggeri_section a:hover{
+	  font-weight: bold;
+   color:rgb(148, 187, 30);
+    text-decoration: none;
+}
+.byggeri_section a{
+	   text-decoration: none;
+	font-size: 1.5em;
+	padding: 2px;
+	color: #666;
+	align-self: center;
+>>>>>>> origin/master
 }
 
 .byggeri_section img {
@@ -550,6 +651,16 @@ projekts_section {
 
 }
 
+<<<<<<< HEAD
 origin/master #byggeri {
     display: none;
 }
+=======
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
