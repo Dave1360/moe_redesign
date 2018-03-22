@@ -1,443 +1,394 @@
-<<<<<<< HEAD <<<<<<< HEAD=======body {
+
+body {
     margin: auto;
     font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
-    =======/*<<<<<<< HEAD
 
-=======*/
-    body {
-        margin: auto;
-        font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
-        > > > > > > > origin/master
-    }
+}
 
-    /* Start på navigation bar */
-    header {
-        float: left;
-        width: 100%;
-        height: 69px;
-        border-bottom: 2px solid #94BB1E;
-        margin-bottom: 40px;
-        background: url('bg_top1.jpg') 0 0 repeat-x;
+/* Start på navigation bar */
 
-    }
+header {
 
-    imgs#logo {
-        margin: 23px -150px 10px 50px;
-    }
+    width: 100%;
+    height: 69px;
+    border-bottom: 2px solid #94BB1E;
+    margin-bottom: 40px;
+    background: url('bg_top1.jpg') 0 0 repeat-x;
 
-    #sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+}
+
+#logo {
+    margin-left: 50px;
+
+}
+
+#sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
-    .section {
-        flex-grow: 1;
-        flex-basis: 200px;
+.section {
+    flex-grow: 1;
+    flex-basis: 200px;
 
-    }
+}
 
-    #byggeri_sectionwrapper {
-        display: flex flex-wrap: wrap;
+#byggeri_sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
 
-    }
-
-
-    .byggeri_section {
-        flex-grow: 1;
-        flex-basis: 200px;
-
-    }
-
-    #byggeri_section a:hover {
-        font-weight: bold;
-        color: rgb(148, 187, 30);
-        text-decoration: none;
-    }
-
-    #byggeri_section a {
-        text-decoration: none;
-        font-size: 1em;
-        padding: 6px;
-        color: #666;
-        align-self: center;
-    }
-
-    .section a:hover {
-        transform: scale(1.5);
-    }
-
-    .section img {
-        max-width: 100%;
-        transition: all 0.3s;
-    }
-
-    nav {
-        position: absolute;
-        top: 25px;
-        left: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    nav a {
-
-        text-decoration: none;
-        font-size: 1.4em;
-        padding: 6px;
-        color: #666;
-        align-self: center;
-
-    }
-
-    nav a:hover {
-        font-size: 200%;
-    }
-
-    #searchbox {
-        float: right;
-        margin: 34.5px 50px 0 0;
-
-    }
+}
 
 
-    #searchfield {
-        width: 150px;
-        margin-right: 6px;
-        padding: 1px 2px;
-        font-size: 0.9em;
-        letter-spacing: 0.05em;
-        background: #F2F2F2;
-        border: 1px solid #B1B1B1;
+.byggeri_section {
+    flex-grow: 1;
+    flex-basis: 200px;
 
-    }
+}
 
-    #searchsubmit {
-        padding: 0 5px;
-        font-size: 0.9em;
-        letter-spacing: 0.1em;
-        width: auto;
-        overflow: visible;
-    }
+#byggeri_section a:hover {
+    font-weight: bold;
+    color: rgb(148, 187, 30);
+    text-decoration: none;
+}
 
-    /* Navigations bar slut */
-    h1 {
-        font-size: 1.6em;
-        color: #666;
-        text-align: center;
+#byggeri_section a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 6px;
+    color: #666;
+    align-self: center;
+}
+
+.section a:hover {
+    transform: scale(1.5);
+}
+
+.section img {
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+nav {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+}
+
+nav a {
+
+    text-decoration: none;
+    padding: 6px;
+    color: #666;
+}
+
+nav a:hover {
+    font-size: 200%;
+}
+
+#searchbox {
+display: flex;
+    margin: 34.5px 50px 0 0;
+ justify-content: space-between;
+}
 
 
-    }
 
-    /* De øverste billeder */
-    /*
+
+#searchfield {
+    color: black;
+    padding: 1px 2px;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+    background: #F2F2F2;
+    border: 1px solid #B1B1B1;
+    align-self: flex-end;
+}
+
+
+#searchsubmit {
+    padding: 0 5px;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+
+}
+
+
+
+/* Navigations bar slut */
+
+h1 {
+    font-size: 1.6em;
+    color: #666;
+    text-align: center;
+
+
+}
+
+/* De øverste billeder */
+
+/*
 #main {
     display: flex;
     flex-wrap: wrap;
 }
 */
-    #top {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        margin-left: 60px;
-        margin-right: 60px;
 
-    }
+#top {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
 
-    #top2 {
-        display: flex;
-        flex-wrap: wrap;
-    }
+}
 
-    #top #case1 {
-        position: relative;
-        text-align: center;
-        color: white;
-        border-right: 15px solid #fff;
-        width: 232px;
+#top2 {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
-    }
+#top #case1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-right: 15px solid #fff;
+    width: 232px;
 
 
-    #top #case2 {
-        border-right: 15px solid #fff;
-        width: 232px;
-        position: relative;
-        text-align: center;
-        color: white;
-        flex-basis: 200px;
-
-    }
-
-    #top #case3 {
-        border-right: 15px solid #fff;
-        width: 232px;
-        position: relative;
-        text-align: center;
-        color: white;
-        flex-basis: 200px;
-
-    }
-
-    #top h2 {
-
-        padding: 0;
-        font-size: 1em;
-        font-weight: normal;
-        text-transform: uppercase;
-        color: black;
+}
 
 
-    }
+#top #case2 {
+    border-right: 15px solid #fff;
+    width: 232px;
+    position: relative;
+    text-align: center;
+    color: white;
+    flex-basis: 200px;
 
-    #top a {
-        text-decoration: none;
-    }
+}
 
-    #top #case1 .image {
-        position: relative;
-        width: 100%;
-    }
+#top #case3 {
+    border-right: 15px solid #fff;
+    width: 232px;
+    position: relative;
+    text-align: center;
+    color: white;
+    flex-basis: 200px;
 
-    #top #case1 h2 {
-        <<<<<<< HEAD position: absolute;
-        top: 143px;
-        left: 0;
-        width: 232px;
-        background: rgb(95, 102, 111);
-        background: rgba(95, 102, 111, 0.9);
-        padding-bottom: 10px;
-        padding-top: 10px;
-        color: #fff;
-        =======position: absolute;
-        top: 143px;
-        left: 0;
-        width: 232px;
-        background: rgb(95, 102, 111);
-        background: rgba(95, 102, 111, 0.9);
-        padding-bottom: 10px;
-        padding-top: 13px;
-        color: #fff;
-        > > > > > > > origin/master
-    }
+}
 
-    #top #case2 .image {
-        position: relative;
-        width: 100%;
-    }
+#top h2 {
 
-    #top #case2 h2 {
-        position: absolute;
-        top: 143px;
-        left: 0;
-        width: 232px;
-        background: rgb(148, 187, 30);
-        background: rgba(148, 187, 30, 0.9);
-        padding-bottom: 20px;
-        padding-top: 20px;
-        color: #fff;
-
-    }
-
-    #top #case3 .image {
-        position: relative;
-        width: 100%;
-    }
-
-    #top #case3 h2 {
-        position: absolute;
-        top: 143px;
-        left: 0;
-        width: 232px;
-        background: rgb(95, 102, 111);
-        background: rgba(95, 102, 111, 0.9);
-        padding-bottom: 20px;
-        padding-top: 20px;
-        color: #fff;
-
-    }
-
-    /* Øverste billeder slutter */
-    /* Nedeste billeder starter */
-    #bottom {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-    #bottom2 {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #bottom #case1 {
-        position: relative;
-        text-align: center;
-        color: white;
-        border-right: 15px solid #fff;
+    padding: 0;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: black;
 
 
-    }
+}
+
+#top a {
+    text-decoration: none;
+}
+
+#top #case1 .image {
+    position: relative;
+    width: 100%;
+}
+
+#top #case1 h2 {
+position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(95, 102, 111);
+    background: rgba(95, 102, 111, 0.9);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #fff;
+
+}
+
+#top #case2 .image {
+    position: relative;
+    width: 100%;
+}
+
+#top #case2 h2 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(148, 187, 30);
+    background: rgba(148, 187, 30, 0.9);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+#top #case3 .image {
+    position: relative;
+    width: 100%;
+}
+
+#top #case3 h2 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(95, 102, 111);
+    background: rgba(95, 102, 111, 0.9);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+/* Øverste billeder slutter */
+
+/* Nedeste billeder starter */
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#bottom2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bottom #case1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-right: 15px solid #fff;
 
 
-    #bottom #case2 {
-        border-right: 15px solid #fff;
-        width: 232px;
-        position: relative;
-        text-align: center;
-        color: white;
-
-    }
-
-    #bottom #case3 {
-        border-right: 15px solid #fff;
-        width: 232px;
-        position: relative;
-        text-align: center;
-        color: white;
-    }
-
-    #bottom h2 {
-
-        padding: 0;
-        font-size: 1em;
-        font-weight: normal;
-        text-transform: uppercase;
-        color: black;
+}
 
 
-    }
+#bottom #case2 {
+    border-right: 15px solid #fff;
+    width: 232px;
+    position: relative;
+    text-align: center;
+    color: white;
 
-    #bottom a {
-        text-decoration: none;
-    }
+}
 
-    #bottom #case1 .image {
-        position: relative;
-        width: 100%;
-    }
+#bottom #case3 {
+    border-right: 15px solid #fff;
+    width: 232px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
-    #bottom #case1 h2 {
-        <<<<<<< HEAD position: absolute;
-        top: 143px;
-        left: 0;
-        width: 232px;
-        background: rgb(95, 102, 111);
-        background: rgba(95, 102, 111, 0.9);
-        padding-bottom: 28px;
-        padding-top: 10px;
-        color: #fff;
-        =======position: absolute;
-        top: 143px;
-        left: 0;
-        width: 232px;
-        background: rgb(95, 102, 111);
-        background: rgba(95, 102, 111, 0.9);
-        padding-bottom: 28px;
-        padding-top: 12px;
-        color: #fff;
-        > > > > > > > origin/master
-    }
+#bottom h2 {
 
-    #bottom #case2 .image {
-        position: relative;
-        width: 100%;
-    }
-
-    #bottom #case2 h2 {
-        <<<<<<< HEAD position: absolute;
-        top: 143px;
-        left: 0;
-        width: 232px;
-        background: rgb(148, 187, 30);
-        background: rgba(148, 187, 30, 0.9);
-        padding-bottom: 28px;
-        padding-top: 29px;
-        color: #fff;
-        =======position: absolute;
-        top: 143px;
-        left: 0;
-        width: 232px;
-        background: rgb(148, 187, 30);
-        background: rgba(148, 187, 30, 0.9);
-        padding-bottom: 28px;
-        padding-top: 30px;
-        color: #fff;
-        > > > > > > > origin/master
-    }
-
-    #bottom #case3 .image {
-        position: relative;
-        width: 100%;
-    }
-
-    #bottom #case3 h2 {
-        position: absolute;
-        top: 143px;
-        left: 0;
-        width: 232px;
-        background: #5f666f;
-        background: rgba(95, 102, 111, 0.9);
-        padding-bottom: 19px;
-        padding-top: 20px;
-        color: #fff;
-
-    }
-
-    /* Nederste billeder slutter */
-    /* footer starter */
-    #footer {
-        bottom: 0;
-        position: absolute;
-        width: 100%;
-        height: 60px;
-        border-top: 2px solid #94BB1E;
-        color: #999;
+    padding: 0;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: black;
 
 
-    }
+}
 
-    #footer p {
-        margin-left: 20px;
-    }
+#bottom a {
+    text-decoration: none;
+}
 
-    /* Footer slutter */
-    @media only screen and (max-width: 390px) {
-        <<<<<<< HEAD img#logo {
-            display: none;
-        }
-        #searchbox {
-            display: none;
-        }
+#bottom #case1 .image {
+    position: relative;
+    width: 100%;
+}
 
-        nav a {
-            font-size: 0.8em;
-        }
-        nav a:hover {
-            font-size: 100%;
-        }
+#bottom #case1 h2 {
+position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(95, 102, 111);
+    background: rgba(95, 102, 111, 0.9);
+    padding-bottom: 28px;
+    padding-top: 12px;
+    color: #fff;
 
-        #footer {
-            position: relative;
-        }
+}
 
-        #footer p {
-            font-size: 5px;
-        }
+#bottom #case2 .image {
+    position: relative;
+    width: 100%;
+}
 
-        #byggeri {
-            display: none;
-        }
-    }
+#bottom #case2 h2 {
+position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: rgb(148, 187, 30);
+    background: rgba(148, 187, 30, 0.9);
+    padding-bottom: 28px;
+    padding-top: 30px;
+    color: #fff;
 
-    > > > > > > > origin/master=======img#logo {
+}
+
+#bottom #case3 .image {
+    position: relative;
+    width: 100%;
+}
+
+#bottom #case3 h2 {
+    position: absolute;
+    top: 143px;
+    left: 0;
+    width: 232px;
+    background: #5f666f;
+    background: rgba(95, 102, 111, 0.9);
+    padding-bottom: 19px;
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+/* Nederste billeder slutter */
+
+/* footer starter */
+
+#footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid #94BB1E;
+    color: #999;
+
+
+}
+
+#footer p {
+    margin-left: 20px;
+}
+
+/* Footer slutter */
+
+@media only screen and (max-width: 390px) {
+   img#logo {
         display: none;
     }
     #searchbox {
@@ -464,9 +415,38 @@
     }
 }
 
+/*img#logo {
+    display: none;
+}
+
+#searchbox {
+    display: none;
+}*/
+
+nav a {
+    font-size: 0.8em;
+}
+
+nav a:hover {
+    font-size: 100%;
+}
+
+#footer {
+    position: relative;
+}
+
+#footer p {
+    font-size: 5px;
+}
+
+#byggeri {
+    display: none;
+}
+
+}
+
 /*>>>>>>> origin/master*/
 
-> > > > > > > origin/master
 /*kompetencer*/
 
 #kompetencer #sectionwrapper_komp {
