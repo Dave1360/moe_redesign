@@ -394,20 +394,21 @@ position: absolute;
 
 /* footer starter */
 
-#footer {
+.footermenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
     bottom: 0;
     position: absolute;
     width: 100%;
     height: 60px;
     border-top: 2px solid #94BB1E;
     color: #999;
-
-
-}
-
-#footer p {
     margin-left: 20px;
 }
+
 
 /* Footer slutter */
 
@@ -462,11 +463,11 @@ nav a:hover {
     font-size: 100%;
 }
 
-#footer {
+footer {
     position: relative;
 }
 
-#footer p {
+footer p {
     font-size: 5px;
 
 }
@@ -578,4 +579,9 @@ projekts_section {
 
 =======
 /*kompetencer slutter*/
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> origin/master
 >>>>>>> origin/master
