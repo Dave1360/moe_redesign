@@ -434,16 +434,19 @@ h1 {
 
 /*kompetencer*/
 
-#kompetencer #sectionwrapper_komp {
+#sectionwrapper_komp {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
 }
 
-#column_komp #column_komp {
+#column_komp {
     flex-grow: 1;
     flex-basis: 300px;
 }
+
+
+
 
 /*kompetencer slutter*/
