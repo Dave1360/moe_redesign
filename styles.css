@@ -131,12 +131,6 @@ h1 {
 
 /* De øverste billeder */
 
-/*
-#main {
-    display: flex;
-    flex-wrap: wrap;
-}
-*/
 
 #top {
     display: flex;
@@ -179,6 +173,7 @@ h1 {
 
 }
 
+
 #top #case2:hover {
     opacity: 0.5;
 }
@@ -208,7 +203,6 @@ h1 {
 
 }
 
-
 #top #case1 h2 {
     position: absolute;
     top: 143px;
@@ -226,13 +220,13 @@ h1 {
 
 #top #case2 h2 {
     position: absolute;
-    top: 143px;
+    top: 144px;
     left: 0;
     width: 232px;
     background: rgb(148, 187, 30);
     background: rgba(148, 187, 30, 0.9);
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 21px;
     color: #fff;
 
 }
@@ -351,13 +345,13 @@ h1 {
 
 #bottom #case2 h2 {
     position: absolute;
-    top: 143px;
+    top: 144px;
     left: 0;
     width: 232px;
     background: rgb(148, 187, 30);
     background: rgba(148, 187, 30, 0.9);
     padding-bottom: 28px;
-    padding-top: 30px;
+    padding-top: 32px;
     color: #fff;
 
 }
@@ -437,40 +431,6 @@ h1 {
         font-size: 0.8em;
     }
 }
-
-/*img#logo {
-    display: none;
-}
-
-#searchbox {
-    display: none;
-}*/
-
-/*
-nav a {
-    font-size: 0.8em;
-}
-*/
-
-nav a:hover {
-    font-size: 100%;
-}
-
-#footer {
-    position: relative;
-}
-
-#footer p {
-    font-size: 5px;
-}
-
-#byggeri {
-    display: none;
-}
-
-}
-
-/*>>>>>>> origin/master*/
 
 /*kompetencer*/
 
