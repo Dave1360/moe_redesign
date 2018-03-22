@@ -1,3 +1,4 @@
+
 body {
     margin: auto;
     font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
@@ -8,19 +9,25 @@ body {
 
 header {
 
+
+
+
+
+
     width: 100%;
     height: 69px;
     border-bottom: 2px solid #94BB1E;
     margin-bottom: 40px;
     background: url('bg_top1.jpg') 0 0 repeat-x;
 
+
 }
 
 #logo {
     margin-left: 50px;
-    margin-top: 10px;
 
 }
+
 
 #sectionwrapper {
     display: flex;
@@ -33,6 +40,13 @@ header {
     flex-grow: 1;
     flex-basis: 200px;
 
+}
+<<<<<<< HEAD
+
+
+#byggeri_sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #byggeri_sectionwrapper {
@@ -64,12 +78,23 @@ header {
 
 .section a:hover {
     transform: scale(1.5);
+
 }
 
 .section img {
     max-width: 100%;
     transition: all 0.3s;
 }
+
+
+
+}
+
+.section img {
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
 
 nav {
     position: absolute;
@@ -91,9 +116,9 @@ nav a:hover {
 }
 
 #searchbox {
-    display: flex;
+display: flex;
     margin: 34.5px 50px 0 0;
-    justify-content: space-between;
+ justify-content: space-between;
 }
 
 
@@ -158,15 +183,10 @@ h1 {
     color: white;
     border-right: 15px solid #fff;
     width: 232px;
-    ;
-    transition: .5s ease;
-    background-color: #5f666f;
+
 
 }
 
-#top #case1:hover {
-    opacity: 0.5;
-}
 
 #top #case2 {
     border-right: 15px solid #fff;
@@ -174,13 +194,8 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
-    transition: .5s ease;
-    background-color: #5f666f;
+    flex-basis: 200px;
 
-}
-
-#top #case2:hover {
-    opacity: 0.5;
 }
 
 #top #case3 {
@@ -189,12 +204,8 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
-    transition: .5s ease;
-    background-color: #5f666f;
-}
+    flex-basis: 200px;
 
-#top #case3:hover {
-    opacity: 0.5;
 }
 
 #top h2 {
@@ -208,13 +219,21 @@ h1 {
 
 }
 
+#top a {
+    text-decoration: none;
+}
+
+#top #case1 .image {
+    position: relative;
+    width: 100%;
+}
 
 #top #case1 h2 {
-    position: absolute;
+position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
-    background: #5f666f;
+    background: rgb(95, 102, 111);
     background: rgba(95, 102, 111, 0.9);
     padding-bottom: 10px;
     padding-top: 10px;
@@ -222,7 +241,10 @@ h1 {
 
 }
 
-
+#top #case2 .image {
+    position: relative;
+    width: 100%;
+}
 
 #top #case2 h2 {
     position: absolute;
@@ -237,6 +259,10 @@ h1 {
 
 }
 
+#top #case3 .image {
+    position: relative;
+    width: 100%;
+}
 
 #top #case3 h2 {
     position: absolute;
@@ -261,7 +287,6 @@ h1 {
     margin-top: 50px;
     margin-left: 60px;
     margin-right: 60px;
-    margin-bottom: 20px;
 }
 
 #bottom2 {
@@ -274,14 +299,10 @@ h1 {
     text-align: center;
     color: white;
     border-right: 15px solid #fff;
-    transition: .5s ease;
-    background-color: #5f666f;
+
 
 }
 
-#bottom #case1:hover {
-    opacity: 0.5;
-}
 
 #bottom #case2 {
     border-right: 15px solid #fff;
@@ -289,12 +310,7 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
-    transition: .5s ease;
-    background-color: #5f666f;
-}
 
-#bottom #case2:hover {
-    opacity: 0.5;
 }
 
 #bottom #case3 {
@@ -303,12 +319,6 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
-    transition: .5s ease;
-    background-color: #5f666f;
-}
-
-#bottom #case3:hover {
-    opacity: 0.5;
 }
 
 #bottom h2 {
@@ -332,7 +342,7 @@ h1 {
 }
 
 #bottom #case1 h2 {
-    position: absolute;
+position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
@@ -350,7 +360,7 @@ h1 {
 }
 
 #bottom #case2 h2 {
-    position: absolute;
+position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
@@ -403,7 +413,7 @@ footer {
 /* Footer slutter */
 
 @media only screen and (max-width: 390px) {
-    #logo {
+   #logo {
         display: none;
     }
 
@@ -433,10 +443,6 @@ footer {
     #byggeri {
         display: none;
     }
-
-    h1 {
-        font-size: 0.8em;
-    }
 }
 
 /*img#logo {
@@ -463,17 +469,99 @@ footer {
 
 footer p {
     font-size: 5px;
+
 }
 
+
+.projekts_sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+projekts_section {
+	flex-grow: 1;
+	flex-basis: 200px;
+
+}
+.byggeri_sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+
+.byggeri_section {
+	flex-grow: 1;
+	flex-basis: 200px;
+	padding: 35px;
+}
+
+.byggeri_section img{
+	width: 100%;
+}
+.byggeri_section a:hover{
+	  font-weight: bold;
+   color:rgb(148, 187, 30);
+    text-decoration: none;
+}
+.byggeri_section a{
+	   text-decoration: none;
+	font-size: 1.5em;
+	padding: 2px;
+	color: #666;
+	align-self: center;
+}
+
+
+.section a:hover{
+	 transform: scale(1.5);
+}
+.section img{
+	max-width: 100%;
+	transition: all 0.3s;
+}
+.link_kasse{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+.links{
+	flex-grow: 1;
+	flex-basis: 300px;
+	align-self: center;
+}
+
+}
+.byggeri_section img{
+	width: 100%;
+}
+.byggeri_section p{
+	font-size: 1.2em;
+}
+
+=======
+}
+
+>>>>>>> origin/master
 #byggeri {
     display: none;
 }
 
+<<<<<<< HEAD
+
+
+
+=======
 }
 
 /*>>>>>>> origin/master*/
 
 /*kompetencer*/
+>>>>>>> origin/master
 
 #kompetencer #sectionwrapper_komp {
     display: flex;
@@ -487,6 +575,13 @@ footer p {
     flex-basis: 300px;
 }
 
+<<<<<<< HEAD
+
+=======
 /*kompetencer slutter*/
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
