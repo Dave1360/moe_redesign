@@ -131,12 +131,6 @@ h1 {
 
 /* De øverste billeder */
 
-/*
-#main {
-    display: flex;
-    flex-wrap: wrap;
-}
-*/
 
 #top {
     display: flex;
@@ -178,6 +172,7 @@ h1 {
     background-color: #5f666f;
 
 }
+
 
 #top #case2:hover {
     opacity: 0.5;
@@ -436,26 +431,6 @@ h1 {
         font-size: 0.8em;
     }
 }
-
-nav a:hover {
-    font-size: 100%;
-}
-
-#footer {
-    position: relative;
-}
-
-#footer p {
-    font-size: 5px;
-}
-
-#byggeri {
-    display: none;
-}
-
-}
-
-/*>>>>>>> origin/master*/
 
 /*kompetencer*/
 
