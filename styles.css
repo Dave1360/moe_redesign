@@ -1,4 +1,3 @@
-
 body {
     margin: auto;
     font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
@@ -91,9 +90,9 @@ nav a:hover {
 }
 
 #searchbox {
-display: flex;
+    display: flex;
     margin: 34.5px 50px 0 0;
- justify-content: space-between;
+    justify-content: space-between;
 }
 
 
@@ -204,7 +203,7 @@ h1 {
 }
 
 #top #case1 h2 {
-position: absolute;
+    position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
@@ -317,7 +316,7 @@ position: absolute;
 }
 
 #bottom #case1 h2 {
-position: absolute;
+    position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
@@ -335,7 +334,7 @@ position: absolute;
 }
 
 #bottom #case2 h2 {
-position: absolute;
+    position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
@@ -387,7 +386,7 @@ position: absolute;
 /* Footer slutter */
 
 @media only screen and (max-width: 390px) {
-   #logo {
+    #logo {
         display: none;
     }
 
@@ -455,16 +454,19 @@ nav a:hover {
 
 /*kompetencer*/
 
-#kompetencer #sectionwrapper_komp {
+#sectionwrapper_komp {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
 }
 
-#column_komp #column_komp {
+#column_komp {
     flex-grow: 1;
     flex-basis: 300px;
 }
+
+
+
 
 /*kompetencer slutter*/
