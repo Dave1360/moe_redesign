@@ -1,4 +1,3 @@
-
 body {
     margin: auto;
     font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
@@ -41,10 +40,8 @@ header {
     flex-basis: 200px;
 
 }
-<<<<<<< HEAD
 
-
-#byggeri_sectionwrapper {
+<<<<<<< HEAD #byggeri_sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 }
@@ -116,9 +113,9 @@ nav a:hover {
 }
 
 #searchbox {
-display: flex;
+    display: flex;
     margin: 34.5px 50px 0 0;
- justify-content: space-between;
+    justify-content: space-between;
 }
 
 
@@ -229,7 +226,7 @@ h1 {
 }
 
 #top #case1 h2 {
-position: absolute;
+    position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
@@ -342,7 +339,7 @@ position: absolute;
 }
 
 #bottom #case1 h2 {
-position: absolute;
+    position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
@@ -360,7 +357,7 @@ position: absolute;
 }
 
 #bottom #case2 h2 {
-position: absolute;
+    position: absolute;
     top: 143px;
     left: 0;
     width: 232px;
@@ -413,7 +410,7 @@ footer {
 /* Footer slutter */
 
 @media only screen and (max-width: 390px) {
-   #logo {
+    #logo {
         display: none;
     }
 
@@ -474,114 +471,85 @@ footer p {
 
 
 .projekts_sectionwrapper {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
 projekts_section {
-	flex-grow: 1;
-	flex-basis: 200px;
+    flex-grow: 1;
+    flex-basis: 200px;
 
 }
+
 .byggeri_sectionwrapper {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 }
 
 
 .byggeri_section {
-	flex-grow: 1;
-	flex-basis: 200px;
-	padding: 35px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 35px;
 }
 
-.byggeri_section img{
-	width: 100%;
+.byggeri_section img {
+    width: 100%;
 }
-.byggeri_section a:hover{
-	  font-weight: bold;
-   color:rgb(148, 187, 30);
+
+.byggeri_section a:hover {
+    font-weight: bold;
+    color: rgb(148, 187, 30);
     text-decoration: none;
 }
-.byggeri_section a{
-	   text-decoration: none;
-	font-size: 1.5em;
-	padding: 2px;
-	color: #666;
-	align-self: center;
+
+.byggeri_section a {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 2px;
+    color: #666;
+    align-self: center;
 }
 
 
-.section a:hover{
-	 transform: scale(1.5);
-}
-.section img{
-	max-width: 100%;
-	transition: all 0.3s;
-}
-.link_kasse{
-	display: flex;
-	flex-wrap: wrap;
-	align-content: center;
-
-}
-.links{
-	flex-grow: 1;
-	flex-basis: 300px;
-	align-self: center;
+.section a:hover {
+    transform: scale(1.5);
 }
 
-}
-.byggeri_section img{
-	width: 100%;
-}
-.byggeri_section p{
-	font-size: 1.2em;
+.section img {
+    max-width: 100%;
+    transition: all 0.3s;
 }
 
-=======
-}
-
->>>>>>> origin/master
-#byggeri {
-    display: none;
-}
-
-<<<<<<< HEAD
-
-
-
-=======
-}
-
-/*>>>>>>> origin/master*/
-
-/*kompetencer*/
->>>>>>> origin/master
-
-#kompetencer #sectionwrapper_komp {
+.link_kasse {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    align-content: center;
 
 }
 
-#column_komp #column_komp {
+.links {
     flex-grow: 1;
     flex-basis: 300px;
+    align-self: center;
 }
 
-<<<<<<< HEAD
+}
 
-=======
-/*kompetencer slutter*/
-<<<<<<< HEAD
+.byggeri_section img {
+    width: 100%;
+}
 
+.byggeri_section p {
+    font-size: 1.2em;
+}
 
-=======
->>>>>>> origin/master
->>>>>>> origin/master
+}
+
+origin/master #byggeri {
+    display: none;
+}
